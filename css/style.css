@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1510915361894-db8b60106cb1");
+  background-size: cover;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: cadetblue;
+}
+
+.container {
+  padding-top: 50px;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
+}
+
+img {
+  width: 280px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  margin-top: 20px;
+}
+
+ul {
+  text-align: left;
+}
+ul {
+  list-style: none; /* scoate punctele */
+}
+
+ul li::before {
+  content: "🎸 ";
+}
+
+iframe {
+  padding-right: 500px;
+}
